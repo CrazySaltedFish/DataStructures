@@ -28,6 +28,7 @@ func isMatch(s string,p string) bool {
 		switch p[j] {
 			case '*':
 				if chp != s[i] {return false}
+				
 			case '.':
 				if chp != s[i] {return false}
 				j++
